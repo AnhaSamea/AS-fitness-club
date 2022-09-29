@@ -5,6 +5,10 @@ import './Club.css'
 const Club = () => {
     //data loading
     const [types, setTypes] = useState([]);
+    //usestate for add button
+    const [list,setList] =useState([])
+    
+
     useEffect(() => {
         fetch('categories.json')
             .then(res => res.json())
@@ -12,6 +16,8 @@ const Club = () => {
     }, []);
     const handleAddToList = (type) => {
         console.log(type);
+        const newList = [...list, type];
+        setList(newList);
     }
     return (
         <div className='club-container'>
@@ -22,9 +28,7 @@ const Club = () => {
             </div>
             <div className='profile-container'>
                 <h3>Profile</h3>
-               {/*  {
-                    types.map(type=> <Profile></Profile>)
-                } */}
+                <p>Selected Items : {list.length}</p>
             </div>
         </div>
     );

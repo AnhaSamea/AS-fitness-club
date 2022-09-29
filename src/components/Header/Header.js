@@ -1,9 +1,11 @@
 import React from 'react';
-import './Header.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPersonRunning } from '@fortawesome/free-solid-svg-icons';
+import './Header.css';
 const Header = () => {
     return (
         <nav className='mt-5 ms-3 p-2'>
-            {/* <i class="fa-regular fa-person-running"></i> */}
+            <FontAwesomeIcon icon={faPersonRunning}></FontAwesomeIcon>
             <h1>AS Fitness Club</h1>
         </nav>
     );
