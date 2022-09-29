@@ -16,7 +16,7 @@ const Profile = (props) => {
     /*  const addBreakTime = () => {
          console.log('clicked');
      } */
-     const notify = () => toast("You have completed your activities successfully!");
+     const notify = () => toast("You have completed your activities successfully!!");
 
     return (
         <div className='profile'>
