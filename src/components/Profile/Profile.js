@@ -1,11 +1,15 @@
 import React from 'react';
 import './Profile.css'
-const Profile = () => {
+const Profile = ({list}) => {
     return (
-        <div>
-            <h3>Exercise Details</h3>
-            <h4>Exercise Time :</h4>
-            <h4>Break Time :</h4>
+        <div className='profile'>
+            <h3>Profile</h3>
+            <p>Selected Items : {list.length}</p>
+            <h5>Exercise Details</h5>
+            <p className='time'><strong>Exercise Time :</strong></p>
+            <p className='time'><strong>Break Time :</strong></p>
+            
+                
         </div>
     );
 };

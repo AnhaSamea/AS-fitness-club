@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Category from '../Category/Category';
+import Profile from '../Profile/Profile';
 
 import './Club.css'
 const Club = () => {
@@ -27,8 +28,7 @@ const Club = () => {
                 }
             </div>
             <div className='profile-container'>
-                <h3>Profile</h3>
-                <p>Selected Items : {list.length}</p>
+                <Profile list={list}></Profile>
             </div>
         </div>
     );
