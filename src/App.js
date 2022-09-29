@@ -1,12 +1,15 @@
 import './App.css';
-import Category from './components/Category/Category';
+import Club from './components/Club/Club';
+
 import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Category></Category>
+     <Club></Club>
+      
+
     </div>
   );
 }
