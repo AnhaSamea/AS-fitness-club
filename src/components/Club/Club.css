@@ -1,10 +1,11 @@
-.club-container{
+.club-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.exercise-container{
-   display: grid;
-   grid-template-columns: repeat(3,1fr); 
-   gap: 25px;
-   margin: 40px;
+
+.exercise-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 40px;
 }

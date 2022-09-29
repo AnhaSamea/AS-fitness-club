@@ -1,16 +1,18 @@
-.category img{
-   width: 370px;
-   height: 216px; 
-   border-radius: 20px;
-}
-.category{
+.category img {
     width: 370px;
-    height: 380px ;
+    height: 216px;
+    border-radius: 20px;
+}
+
+.category {
+    width: 370px;
+    height: 380px;
     background-color: antiquewhite;
     border-radius: 20px;
 }
-.add{
+
+.add {
     width: 370px;
     height: 40px;
-   
+
 }
