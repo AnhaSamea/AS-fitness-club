@@ -1,4 +1,11 @@
 .category img{
-   width: 260px;
+   width: 370px;
    height: 216px; 
+   border-radius: 20px;
+}
+.category{
+    width: 370px;
+    height: 410px ;
+    background-color: antiquewhite;
+    border-radius: 20px;
 }
