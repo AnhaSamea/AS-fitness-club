@@ -5,7 +5,12 @@
 }
 .category{
     width: 370px;
-    height: 410px ;
+    height: 380px ;
     background-color: antiquewhite;
     border-radius: 20px;
+}
+.add{
+    width: 370px;
+    height: 40px;
+   
 }

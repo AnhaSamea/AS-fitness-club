@@ -8,7 +8,7 @@ const Category = (props) => {
             <h2>{name}</h2>
             <p>For Age : {age}</p>
             <p>Time required : {time}min</p>
-            <button>Add to list</button>
+            <button className='btn btn-success add'>Add to list</button>
         </div>
     );
 };
