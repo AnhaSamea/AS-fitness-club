@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './Profile.css'
 import pic from './profile.png'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Profile = (props) => {
     const { list } = props;
     let total = 0;
@@ -14,6 +16,8 @@ const Profile = (props) => {
     /*  const addBreakTime = () => {
          console.log('clicked');
      } */
+     const notify = () => toast("You have completed your activities successfully!");
+
     return (
         <div className='profile'>
             <div className='profile-info'>
@@ -49,8 +53,8 @@ const Profile = (props) => {
             <h5>Exercise Details</h5>
             <p className='time'><strong>Exercise Time : </strong>{total} minutes</p>
             <p className='time'><strong>Break Time : </strong>{time}s</p>
-            <button className='btn btn-success activity'>Activity Completed</button>
-
+            <button onClick={notify} className='btn btn-success activity'>Activity Completed</button>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
