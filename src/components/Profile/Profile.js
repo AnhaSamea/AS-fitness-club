@@ -12,7 +12,7 @@ const Profile = (props) => {
     const [time, setTime] = useState([0]);
     function addBreakTime(id) {
         setTime(id);
-        localStorage.getItem(id);
+        localStorage.setItem(id);
     }
     /*  const addBreakTime = () => {
          console.log('clicked');
