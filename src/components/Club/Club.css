@@ -7,19 +7,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
-    margin: 40px;
+    margin: 30px;
 }
 .profile-container{
     background-color: antiquewhite;
     border-radius: 20px;
-    padding: 10px;
-    margin-right: 20px;
+    padding: 5px;
+    margin-right: 10px;
     height: 500px;
 }
 @media only screen and (max-width:768px) and (min-width:320px) {
     .club-container{
         display: grid;
-        grid-template-columns: repeat(1fr);
+        grid-template-columns: repeat(2,1fr);
        
     }
     .exercise-container{

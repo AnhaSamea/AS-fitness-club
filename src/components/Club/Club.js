@@ -16,7 +16,7 @@ const Club = () => {
             .then(data => setTypes(data))
     }, []);
     const handleAddToList = (type) => {
-        console.log(type);
+        // console.log(type);
         const newList = [...list, type];
         setList(newList);
     }
