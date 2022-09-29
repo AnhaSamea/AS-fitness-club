@@ -26,6 +26,7 @@ const Club = () => {
                 {
                     types.map(type => <Category key={type.id} type={type} handleAddToList={handleAddToList} ></Category>)
                 }
+                
             </div>
             <div className='profile-container'>
                 <Profile list={list}></Profile>

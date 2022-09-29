@@ -12,6 +12,7 @@ const Profile = (props) => {
     const [time, setTime] = useState([0]);
     function addBreakTime(id) {
         setTime(id);
+        localStorage.getItem(id);
     }
     /*  const addBreakTime = () => {
          console.log('clicked');
@@ -29,7 +30,7 @@ const Profile = (props) => {
             </div>
             <div className='info'>
                 <div>
-                    <p><strong>75</strong>kg</p>
+                    <p><strong>77</strong>kg</p>
                     <p>Weight</p>
                 </div>
                 <div>
@@ -37,7 +38,7 @@ const Profile = (props) => {
                     <p>Height</p>
                 </div>
                 <div>
-                    <p><strong>26</strong>years</p>
+                    <p><strong>26</strong>yrs</p>
                     <p>Age</p>
                 </div>
             </div>
