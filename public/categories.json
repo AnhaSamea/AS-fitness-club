@@ -1,0 +1,80 @@
+[
+  {
+    "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+    "category": "Men's Sneaker",
+    "name": "Jogging",
+    "seller": "Addidas",
+    "price": 420,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3725,
+    "img": "https://www.outsideonline.com/wp-content/uploads/2022/01/iStock_89170989_SMALL.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+    "category": "Men's Sneaker",
+    "name": "Biking",
+    "seller": "Addidas",
+    "price": 196,
+    "stock": 19,
+    "ratings": 5,
+    "ratingsCount": 4355,
+    "img": "https://i.ytimg.com/vi/8XThagqYKXU/maxresdefault.jpg",
+    "shipping": 14,
+    "quantity": 0
+  },
+  {
+    "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+    "category": "Men's Sneaker",
+    "name": "Climbing",
+    "seller": "Addidas",
+    "price": 245,
+    "stock": 20,
+    "ratings": 4,
+    "ratingsCount": 3972,
+    "img": "https://www.climbingtechnology.com/wp-content/uploads/2020/03/bno-outdoor.jpg",
+    "shipping": 1,
+    "quantity": 0
+  },
+  {
+    "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+    "category": "Men's Sneaker",
+    "name": "Swimming",
+    "seller": "Addidas",
+    "price": 229,
+    "stock": 10,
+    "ratings": 5,
+    "ratingsCount": 1764,
+    "img": "https://parade.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwNTgxNDg4NzI2NTgyMzk3/swimming-for-weight-loss-jpg.jpg",
+    "shipping": 32,
+    "quantity": 0
+  },
+  {
+    "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+    "category": "Men's Sneaker",
+    "name": "Tennis",
+    "seller": "Addidas",
+    "price": 287,
+    "stock": 11,
+    "ratings": 4,
+    "ratingsCount": 799,
+    "img": "http://www.stack.com/wp-content/uploads/2013/10/Tennis-Workout1-629x417.jpg",
+    "shipping": 49,
+    "quantity": 0
+  },
+  {
+    "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+    "category": "Men's Sneaker",
+    "name": "Yard Work",
+    "seller": "Addidas",
+    "price": 138,
+    "stock": 19,
+    "ratings": 3,
+    "ratingsCount": 4372,
+    "img": "https://www.insidehook.com/wp-content/uploads/2020/04/yardworkfitness.jpg?fit=1200%2C750",
+    "shipping": 19,
+    "quantity": 0
+  } 
+]
